@@ -1,6 +1,6 @@
 # Java Assignment: Chapter 1 & 2
 
-# Questions
+# Question
 
 ![CHEESE!](AssignQuestion.png)
 
