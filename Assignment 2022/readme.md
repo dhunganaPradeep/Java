@@ -183,10 +183,6 @@ Answer:-
 
    Answer:- "[TestEmployee.java]"
 
-**OUTPUT//**
-
-      201751 Pradip Backend-Engineer 30000
-
 # Question no.6:- Mention the scope of all modifiers and also illustrate the concept of access modifiers with suitable examples.
 
 Answer:-
@@ -205,14 +201,7 @@ Answer:-
 
       ![CHEESE!](access-modifier.webp)
 
-   **Example program :-**
-
-      1. for private access modifier = "[Animal.java]"
-      2. for protected access modifier = "[pack/A.java & pack2/B.java]"
-      3. for public access modifier = "[pack3/PublicA.java & pack4/PublicB.java]"
-      4. for default access modifier = "[pack5/DefaultA.java & pack6/DefaultB.java]"
-
-# Question no. 7:- Differetiate between abstract class and Inteface
+# Question no. 7:- Differentiate between abstract class and Inteface
 
 Answer:-
 
@@ -294,30 +283,9 @@ Pradip Dhungana
 # Question no. 9:- Design a class Computer having brand, price and storage as it's attributes. Storage can be either HDD or SDD and has a memory space. Also implement a method to display the details.
 
    Answer:- "[ComputerTest.java]"
-
-   **OUTPUT//**
-
-   Brand Name:- Lenovo ip3
-
-   Price:- 77000.76
-
-   Memory occupied:- 8
-
-   Is SDD ? false
-
 # Question no. 10:- Create a class called Rectangle with two data member 'length' and 'breadth' and two methods to print the area and perimeter respecitively. A constructor having parameters for length and breadth is used to initialize the length and breadth of the rectangle. Let class Square inherit the Rectangle class with its constructor having a parameter for it's side. Print the area and perimeter of the rectangle and a squre.
 
    Answer:- "[CalculateAreaAndPer.java]"
-
-   **OUTPUT//**
-
-   Area Of the Rectangle is:- 15
-
-   Perimeter Of the Rectangle is:- 16
-
-   Area Of the Square is:- 16
-
-   Perimeter Of the Square is:- 16
 
 # Question no. 11:- Strings in java are immutable. Justify this statement.
 
@@ -337,7 +305,7 @@ Pradip Dhungana
                   }
                   }
 
-   Another example program:- Immutable.java
+         Example program:- Immutable.java
 
 **OUTPUT**
 
