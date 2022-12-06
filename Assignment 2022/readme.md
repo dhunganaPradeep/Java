@@ -245,7 +245,7 @@ Answer:-
    - static keyword is used.
    - static variables are the variable of the class.
    - Single copy/memory is generated.
-   - static varables are called using the class name in which the static variables remain the member.
+   - static variables are called using the class name in which the static variables remain the member.
 
 --- > Example program:- "[StaticVar.java]"
 
