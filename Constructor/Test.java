@@ -1,5 +1,3 @@
-import java.lang.*;
-
 class Employee
 {
     int roll;
@@ -20,7 +18,7 @@ class Employee
 class Test{
     public static void main(String []args)
     {
-        Employee e = new Employee(11,"Alex");
+        Employee e = new Employee(11,"Pradip Dhungana");
         System.out.println(e);
     }
 }
