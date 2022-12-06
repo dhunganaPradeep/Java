@@ -81,7 +81,7 @@ Answer:-
 
    Java has an impressive performance due to
 
-      - The use of intermediate bytecode.
+      - The use of intermediate byte code.
 
       - The use of JIT (Just In Time) compiler in which the compiler compiles the code on demand basis i.e the compiler compiler compiles only that code which is
         being called which saves time and makes it more efficient.
