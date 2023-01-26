@@ -146,7 +146,7 @@ Answer:-
 
       This type of polymorphism is also called the static polymorphism that can be implemented using method overloading.
 
-   **Example program of CompileTime Polymorphism:-**"[CompileTimePoly.java]"
+   **Example program of CompileTime Polymorphism:-**"[CompileTimePoly.java](https://github.com/dhunganaPradeep/Java/blob/main/Assignments/Assignment-1/CompileTimePoly.java)"
 
    **OUTPUT//**
 
@@ -165,7 +165,7 @@ Answer:-
    **2. RunTime Polymorphism or MethodOverriding :-**
       RunTime Polymorphism is also called the Dynamic method dispatch that can be implements using method overriding.
 
-   **Example Program of RunTime polymorphism :-** "[RunTimePoly.java]"
+   **Example Program of RunTime polymorphism :-** "[RunTimePoly.java](https://github.com/dhunganaPradeep/Java/blob/main/Assignments/Assignment-1/RunTimePoly.java)"
 
    **OUTPUT//**
 
@@ -181,7 +181,7 @@ Answer:-
 
 # Question no.5:- Create a class Employee with id, name, post and salary. Create a parameterized Constructor to initialize the instance variables. Override the toString() method to display the details.
 
-   Answer:- "[TestEmployee.java]"
+   Answer:- "[TestEmployee.java](https://github.com/dhunganaPradeep/Java/blob/main/Assignments/Assignment-1/TestEmployee.java)"
 
 # Question no.6:- Mention the scope of all modifiers and also illustrate the concept of access modifiers with suitable examples.
 
@@ -233,7 +233,7 @@ Answer:-
    static{
    //code =====> static block
 
-   =====> Example program:- "[StaticBlock.java]"
+   =====> Example program:- "[StaticBlock.java](https://github.com/dhunganaPradeep/Java/blob/main/Assignments/Assignment-1/StaticBlock.java)"
 
 **OUTPUT//**
 
@@ -247,7 +247,7 @@ Answer:-
    - Single copy/memory is generated.
    - static variables are called using the class name in which the static variables remain the member.
 
---- > Example program:- "[StaticVar.java]"
+--- > Example program:- "[StaticVar.java](https://github.com/dhunganaPradeep/Java/blob/main/Assignments/Assignment-1/StaticVar.java)"
 
 **OUTPUT//**
 
@@ -261,7 +261,7 @@ Pradip Dhungana
    - static method can not refer to "this" or "super" keyword.
    - static method can call only other static methods.
 
-   - Example program:- "[StaticMethod.java]
+   - Example program:- "[StaticMethod.java](https://github.com/dhunganaPradeep/Java/blob/main/Assignments/Assignment-1/StaticMethod.java)"
 
 **OUTPUT//**
 
@@ -282,10 +282,10 @@ Pradip Dhungana
 
 # Question no. 9:- Design a class Computer having brand, price and storage as it's attributes. Storage can be either HDD or SDD and has a memory space. Also implement a method to display the details.
 
-   Answer:- "[ComputerTest.java]"
+   Answer:- "[ComputerTest.java](https://github.com/dhunganaPradeep/Java/blob/main/Assignments/Assignment-1/ComputerTest.java)"
 # Question no. 10:- Create a class called Rectangle with two data member 'length' and 'breadth' and two methods to print the area and perimeter respecitively. A constructor having parameters for length and breadth is used to initialize the length and breadth of the rectangle. Let class Square inherit the Rectangle class with its constructor having a parameter for it's side. Print the area and perimeter of the rectangle and a squre.
 
-   Answer:- "[CalculateAreaAndPer.java]"
+   Answer:- "[CalculateAreaAndPer.java](https://github.com/dhunganaPradeep/Java/blob/main/Assignments/Assignment-1/CalculateAreaAndPer.java)"
 
 # Question no. 11:- Strings in java are immutable. Justify this statement.
 
