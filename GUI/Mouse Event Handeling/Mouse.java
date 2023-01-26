@@ -30,6 +30,7 @@ class Mouse implements MouseListener, MouseMotionListener{
     public void mouseClicked(MouseEvent e){
         t1.setText("Mouse Clicked");
     }
+
     public void mouseReleased(MouseEvent e){
         t1.setText("Mouse Released");
     }
