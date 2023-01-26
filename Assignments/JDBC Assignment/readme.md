@@ -160,7 +160,7 @@ Answer:-
 # [Assume that the table has following columns: roll, name, faculty, marks]
 # Question no.5:- Write a program insert records into the above mentioned table until the user types ‘exit’.
 
-   Answer:- "[Insert.java]()"
+   Answer:- "[Insert.java](https://github.com/dhunganaPradeep/Java/blob/main/Assignments/JDBC%20Assignment/Insert.java)"
 
 # Question no.6:- Explain ResultSet, ResultSetMetaData and DatabaseMetaData.
 
@@ -213,4 +213,4 @@ Answer:-
 
 # Question no. 7:- Write a program to show how we can delete and updte records in a table.
 
-Answer:- "[DatabaseOperations.java]()"
+Answer:- "[DatabaseOperations.java](https://github.com/dhunganaPradeep/Java/blob/main/Assignments/JDBC%20Assignment/DatabaseOperations.java)"
