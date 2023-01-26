@@ -8,8 +8,7 @@
 
 Answer:-
 
-
- 	JDBC (Java Database Connectivity) driver is a software 	component that enables Java applications to interact with a 	database. 
+   JDBC (Java Database Connectivity) driver is a software 	component that enables Java applications to interact with a 	database. 
     • It allows Java code to execute SQL statements and retrieve results from a database.
     • It serves as a bridge between a Java application and a specific database management system.
     • JDBC drivers come in different types, such as JDBC-ODBC bridge driver, Native-API driver, Network Protocol driver and Thin driver.
@@ -17,14 +16,14 @@ Answer:-
     • You need to install a JDBC driver for the specific database you want to connect to in order to use JDBC.
     • With the JDBC driver, Java application can connect to any relational database.
 
-	Types of JDBC Driver : 
+   Types of JDBC Driver : 
 
     - JDBC-ODBC Driver (Type 1 Driver)
     - Native-API Driver (Type 2 Driver )
     - Network Protocol Driver (Type 3 Driver)
     - Thin Driver (Type 4 Driver)  
     
-**1. JDBC-ODBC Driver (Type 1 Driver)**
+**1. JDBC-ODBC Driver ( Type 1 Driver )**
 
 Type 1 JDBC driver, also known as the JDBC-ODBC 		bridge driver, uses an ODBC driver to connect to a database. 	The ODBC driver must be installed on each client machine and 	a Data Source Name (DSN) must be configured to represent the 	target database.
 
@@ -40,111 +39,120 @@ Type 1 JDBC driver, also known as the JDBC-ODBC 		bridge driver, uses an ODBC dr
     - It has poor performance compared to other types of JDBC drivers.
     - It lacks support for new features and functions of newer databases.
     - It can have security issues because the ODBC driver is installed on the client machine, which can make it vulnerable to attacks.
-    
-**2. Robust**
 
-   Java is Robust because:-
-      - There are exception handling and type checking mechanisims in java.
-      - To make the memory free forgotten to make it free while deallocating the memory, there is a automatic garbage collector in java which runs on JVM.
+**2.Native-API Driver ( Type 2 Driver )**
 
-      - Java has eleminated the concepts of pointers.
+Type 2 JDBC driver, also known as a Native-API driver, 	uses a database-specific API to connect to a database. Instead of 	using a middleware JDBC-ODBC bridge, it directly calls the 	database API. Each database has its own Native-API driver.
 
-**3. multithreaded and interactive**
+![CHEESE!](type2.jpeg)
 
-   Multithreading refers to a process of executing two or more threads simultaneously in java where a thread in java is an individual, light-weight process requiring fewer resources to create and share the process resources.
+   Advantages of Type 2 JDBC driver:
 
-      - Multithreading saves time as we can perform multiple operations together.
+    - It has better performance compared to Type 1 driver (JDBC-ODBC bridge driver) because it doesn't use a middleware JDBC-ODBC bridge.
+    - It can provide access to advanced features and functions of the specific database being used.
 
-      - It doesn't block the users to perform multiple operations at the same time due to it's indpendency.
+   Disadvantages of Type 2 JDBC driver:
 
-      - It doesn't affect the other threads if an exception occurs in a single thread.
+    - It is not platform-independent, as it is specific to a particular 	database.
+    - It requires a separate driver for each database, which can make it difficult to switch between databases.
+    - It may have limitations compared to using the database's native API.
 
-**4. Distributed**
+**3.Network Protocol Driver ( Type 3 Driver )**
 
-   Java is distribute language because
+A Type 3 JDBC driver, also known as a network protocol 	driver, is a driver that uses a middleware component, such as a 	Java-based application server, to connect to a database. The 	middleware component acts as a bridge between the Java 	application and the database, and it communicates with the 	database using a database-specific protocol.
 
-      - It is possible to share both data and programs.
-      - Java applications can open and access remote objects in their local system that helps multiple programmers at mutliple remote locations to work on a single project.
+![CHEESE!](type3.jpeg)
 
-      - RMI (Java Remote Method Invocation) and EJB (Enterprise Java Bean) are the manageably designed Java APIs.
+Advantages of Type 3 JDBC driver:
 
-**5. Object-oriented**
+    - It allows for platform-independence, as Java code can be run on any operating system that has a Java Virtual Machine (JVM) installed.
+    - It provides high performance as it uses a specific protocol for the database, which can be more efficient than using a generic protocol.
 
-   Java is Object oriented programming language as:-
+   Disadvantages of Type 3 JDBC driver:
 
-      - Everything in java is an object.
+    - It can have additional latency due to the middleware component, which can add an extra hop between the Java application and the database.
+    - It can be complex to set up and configure, as it requires a middleware component to be installed and configured.
+    - It may have security issues if the middleware component is not properly configured and secured.
 
-      - All program code and data reside within objects and classes.
+**4.Thin Driver ( Type 4 Driver )**
 
-      - Java comes with sets of classes, packages that we can use in our programs using the concept of inheritance.
+A Type 4 JDBC driver, also known as the Native-protocol 	pure Java driver, is a pure Java implementation of the database 	protocol. It communicates directly with the database server 	using the database's own network protocol.
 
-**6. Simple and familiar**
+![CHEESE!](type4.jpeg)
 
-   Java is simple and familiar as
+   Advantages of Type 4 JDBC driver:
 
-      - Java has extracted many complicated functions like pointers, preprocessor header files, goto statement, operator overloading, multiple inheritance etc.
+    - It has good performance, as it communicates directly with the database server using the database's own network protocol.
+    - It is platform-independent, as it is written entirely in Java.
+    - It supports advanced features and functions of newer databases.
 
-      - Java is a simplified version of c++.
+   Disadvantages of Type 4 JDBC driver:
 
-**7. High Performance**
+    - It requires a separate driver for each database, which can increase maintenance and support costs.
+    - It may not be compatible with older versions of the database.
 
-   Java has an impressive performance due to
 
-      - The use of intermediate byte code.
-
-      - The use of JIT (Just In Time) compiler in which the compiler compiles the code on demand basis i.e the compiler compiler compiles only that code which is
-        being called which saves time and makes it more efficient.
-
-**8. Ease of Development**
-   J2SE(Java 2 Standard Edition) 5.0 supports features like Generics, Enhanced for loop, Autoboxing or Unboxing, Typesafe Enums, etc which reduce the work of a 
-   
-   programmer by shifting the resposibility of creating the reusable code to the compiler.
-
-# Question no.2:- Explain how Java is platform Independent
+# Question no.2:- Differentiate between JDBC and ODBC.
 
 Answer:-
 
-   Java is platform Independent due to the following reasons:
+   ![CHEESE!](jdbcandodbcdiff.jpg)
 
-      - Java programs can be easily moved from one computer system to another, anywhere and anytime.
 
-      - Changes and upgrades in any Operating Systems(OS), processors, and system resources will not force any changes in java programs
 
-      - Java gives a software based platform that runs on the top of the other hardware platforms which has basically two components : 
-
-                           i. RunTime Environment
-
-                           ii. API(Application Programming Interface)
-
-      - Java code can be run on any platform or multiple devices like windows, linux, mac etc.
-
-      - Java code is first compiled into the byte code using javac as javac filename.java.
-
-      - Compiled byte code is converted into the equivalent machine code using JVM as java filename.
-
-      - Each and every Java source file is compiled into a bytecode file, which is executed by the JVM.
-
-      - Hence, the java is platform independent.
-
-# Question no.3:- Why is multiple inheritance not supported in Java ? Provide a simple code example to support your answer.
+# Question no.3:-Explain all the components of JDBC.
 
 Answer:-
 
-   The diamond problem in java is the main reason why java doesn't support multiple inheritances in classes.
+ There are generally four main components of JDBC through which it can interact with a database. They are as mentioned below: 
 
-   Multiple inheritance shows problem when there exist methods with same signature int the both super/parent classes. Due to such problem, java doesn't support 
+   **1) JDBC API :** 
+
+   - Provides methods and interfaces for communication with databases.
+   - Consists of two packages: java.sql.* for SE platform and java.sql.* for EE platform
+   - Allows for WORA (write once, run anywhere) capabilities
+   - Provides a standard for connecting a database to a client application
+   - Syntax :
+
+            import java.sql.*;
+		      Connection conn = DriverManager.getConnection("jdbc:<subprotocol>:<subname>","username","password");
+         
+
+   **2) JDBC Driver Manager :** 
+
+   - Loads a specific driver for a given application and database
+   - Used to make database-specific calls to the database to process user requests
+   - Syntax :
+
+            Class.forName("com.mysql.jdbc.Driver");
+
+   **3) JDBC Test Suite :** 
+
+   - Used to test operations (such as insertion, deletion, and updates) performed by JDBC Drivers
+   - Can be used to test the functionality of different drivers and ensure they are working correctly
+   - Syntax:
+
+            Statement stmt = conn.createStatement(); 
+            stmt.executeUpdate("INSERT INTO table_name VALUES(value1,value2,value3)");
    
-   multiple inheritance directly. The same concept can be achieved in java using the Interface method.
+   **4) JDBC-ODBC Bridge Drivers :** 
 
-   Example code :- "[Multiple.java]"
+   - Connects JDBC drivers to the database
+   - Translates JDBC method calls into ODBC function calls
+   - Uses the sun.jdbc.odbc package which includes a native library to access ODBC characteristics
+   - Syntax:
 
-**OUTPUT//**
+            import sun.jdbc.odbc.*;
+            Driver d = new sun.jdbc.odbc.JdbcOdbcDriver();
 
-      ERROR
 
-      Code explanation:- In above program, m object of Multiple class is making a call to superclass/parent method display(). This leads to the ambiguity as the compiler doesn't know which superclass method to execute which is called to be the diamond problem that leads java not support the multiple inheritance.
+# Question no.4:- Write a menu driven program that allows users to do following :
+- # Display all the records
+- # Display the total number of records
+- # Ask the user to enter a name and display the number of records with the given name.
+- # Display the average marks of the students.
+- # Ask the user to enter a faculty and print the average marks of the students enrolled in that faculty.
 
-# Question no.4:- Define Polymorphism. How should we implement polymorphism in java ?
 
 Answer:-
    Polymorphism is the same object having different behavior or it's one of the main feature of the Object Oriented Programming that has many forms.

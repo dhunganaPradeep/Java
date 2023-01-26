@@ -127,7 +127,7 @@ Answer:-
    
    multiple inheritance directly. The same concept can be achieved in java using the Interface method.
 
-   Example code :- "[Multiple.java]"
+   Example code :- "[Multiple.java](https://github.com/dhunganaPradeep/Java/blob/main/Assignments/Assignment-1/Multiple.java)"
 
 **OUTPUT//**
 
