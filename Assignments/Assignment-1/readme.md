@@ -312,4 +312,5 @@ Pradip Dhungana
    false
 
 **ExplanationOfExampleProgram**
-   As shown in above example program, str2 is pointing to the same value as str1. When we assigned the value Dhungana in str2, it is supposed that the value in the str1 will also be changed which is not true. What exactly will happen is str2 will reference will reference to the new value and the original value of str1 will not be affected. Even if we don't use the new keyword, we still have the value of str1 protected. Hence the Strings are immutable.
+
+      As shown in above example program, str2 is pointing to the same value as str1. When we assigned the value Dhungana in str2, it is supposed that the value in the str1 will also be changed which is not true. What exactly will happen is str2 will reference will reference to the new value and the original value of str1 will not be affected. Even if we don't use the new keyword, we still have the value of str1 protected. Hence the Strings are immutable.
