@@ -12,7 +12,7 @@ public class DatabaseOperations {
         Class.forName("com.mysql.cj.jdbc.Driver");
         Connection conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/students","root", "");
         System.out.println("Enter the name of the student whose record is need to be deleted");
-        String delName = scn.Next();
+        String delName = scn.next();
         PreparedStatement pstDel = conn.prepareStatement("delete from student where name = ?");
         pstDel.setString(1, delName);
         int delCount = pstDel.executeUpdate();
@@ -23,7 +23,7 @@ public class DatabaseOperations {
             System.out.println("Record not found for the student "+delName);
         }
         System.out.println("Enter the name of the student whose record is need to be updated");
-        String updName = scn.Next();
+        String updName = scn.next();
         System.out.println("Enter the roll number of the student whose record is need to be updated");
         int updRoll = scn.nextInt();
         PreparedStatement pstUpd = conn.prepareStatement("update student set name = ? where roll = ?");
