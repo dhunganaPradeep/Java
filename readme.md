@@ -71,7 +71,7 @@
 ## Contributing
 *If you want to contribute to this repository, please fork the repository and make the changes. Once you are done with your changes, make a pull request, and I will review the changes and merge if necessary.*
 
-*Author*
+## *Author*
 # [Pradip Dhungana](https://www.dhunganaPradip.com.np)
 
 # Acknowledgements
