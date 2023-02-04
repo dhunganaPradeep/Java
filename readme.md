@@ -68,5 +68,11 @@
 ## 13) [Wrapper Class](https://github.com/dhunganaPradeep/Java/tree/main/Wrapper%20class)
 **This folder contains the codes related to Wrapper Classes in Java. It covers the concepts of converting primitive data types to objects and vice versa.**
 
+## Contributing
+*If you want to contribute to this repository, please fork the repository and make the changes. Once you are done with your changes, make a pull request, and I will review the changes and merge if necessary.*
+
 *Author*
 # [Pradip Dhungana](https://www.dhunganaPradip.com.np)
+
+# Acknowledgements
+**I would like to acknowledge my college [Nepal College Of Information Technology](https://ncit.edu.np/) for providing the necessary resources and a platform for me to learn and implement the Java programming language.**
