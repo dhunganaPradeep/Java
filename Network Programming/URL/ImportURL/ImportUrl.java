@@ -1,4 +1,3 @@
-package Practice.ImportURL;
 
 import java.net.URL;
 import java.net.MalformedURLException;
