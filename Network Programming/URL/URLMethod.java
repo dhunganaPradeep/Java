@@ -10,7 +10,7 @@ public class URLMethod {
 
             URL url = new URL("https://github.com/dhunganaPradeep?tab=repositories&type=source");
             
-            System.out.println("1. Protocal:- "+url.getProtocol());
+            System.out.println("1. Protocol:- "+url.getProtocol());
             System.out.println("2. Host/Domain:- "+url.getHost());
             System.out.println("3. Host Authority:- "+url.getAuthority());
             System.out.println("4. Port:- "+url.getPort());
