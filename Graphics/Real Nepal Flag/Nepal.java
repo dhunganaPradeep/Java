@@ -9,6 +9,7 @@ public class Nepal extends JFrame {
 public  Nepal(){
             setSize(500,500);
             setVisible(true);
+            setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
            
     }
     public void paint(Graphics g){
