@@ -45,7 +45,7 @@ public class PaintProgram extends JFrame implements MouseListener, MouseMotionLi
     public void paint(Graphics g) {
         if (painting) {
             // g.drawLine(x,y, x, y);
-            g.drawString("*", x, y);
+            g.drawString("PRADIP", x, y);
         }
     }
 
