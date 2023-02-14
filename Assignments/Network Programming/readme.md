@@ -133,73 +133,28 @@ Answer:-
 | It provides methods for encoding and decoding URL strings.  |It supports both HTTP and HTTPS protocols. |
 |It is used to open a connection to a resource identified by the URL.  | It can be used to handle redirects and authentication.  |
 | It is part of the java.net package.  | It is part of the java.net package.  |
-|Example :- "[URLMethod.java](https://github.com/dhunganaPradeep/Java/blob/main/Assignments/Networking/URLMethod.java)"  | Example :-[URLConnectionClass.java](https://github.com/dhunganaPradeep/Java/blob/main/Assignments/Networking/URLConnectionClass.java)"  |
-
-# Question no.4:- Write a menu driven program that allows users to do following :
-- # Display all the records
-- # Display the total number of records
-- # Ask the user to enter a name and display the number of records with the given name.
-- # Display the average marks of the students.
-- # Ask the user to enter a faculty and print the average marks of the students enrolled in that faculty.
+|Example :- "[URLMethod.java](https://github.com/dhunganaPradeep/Java/blob/main/Assignments/Networking/URLMethod.java)"  | Example :- "[URLConnectionClass.java](https://github.com/dhunganaPradeep/Java/blob/main/Assignments/Networking/URLConnectionClass.java)"  |
 
 
-Answer:- "[ConnectDb.java]()"
+# Question no.4:-  Write a program to print the content of any given URL. Also save the content in an index.html file.
+
+Answer:- "[URLConnectionClass.java](https://github.com/dhunganaPradeep/Java/blob/main/Assignments/Networking/URLConnectionClass.java)"
   
+# Question no.5:-  Write a program to display the HttpRequest Headers.
 
-# [Assume that the table has following columns: roll, name, faculty, marks]
-# Question no.5:- Write a program insert records into the above mentioned table until the user types ‘exit’.
+Answer:- "[HttpRequestHeaders.java](https://github.com/dhunganaPradeep/Java/blob/main/Assignments/Networking/HttpRequestHeaders.java)"
 
-   Answer:- "[Insert.java](https://github.com/dhunganaPradeep/Java/blob/main/Assignments/JDBC%20Assignment/Insert.java)"
-
-# Question no.6:- Explain ResultSet, ResultSetMetaData and DatabaseMetaData.
+# Question no.6:- Write a program to print all the Http Responses.
 
 
-Answer:-
+Answer:- "[HttpResponses.java](https://github.com/dhunganaPradeep/Java/blob/main/Assignments/Networking/HttpResponses.java)"
+# Question no. 7:- Write a program that prints all the ip addresses associated with 'google.com'.
 
-   
-   **1) ResultSet:** 
+Answer:- "[IPAddressofGoogle.java](https://github.com/dhunganaPradeep/Java/blob/main/Assignments/JDBC%20Assignment/IPAddressofGoogle.java)"
 
-   - Represents the result of a query executed against a database
-   - Contains rows and columns of data returned by a SELECT statement
-   - Allows for iterating through the rows of data and accessing the values in each column
-   - Syntax Example : 
-   
-         Statement stmt = conn.createStatement();
-		   ResultSet rs = stmt.executeQuery("SELECT* FROM table_name");
-		   while (rs.next()) {
-    		int id = rs.getInt("id");
-    		String name = rs.getString("name");
-    		System.out.println(id + " " + name);
-		      }
-         
-
-   **2) ResultSetMetaData :** 
-
-   - Provides information about the structure of a ResultSet, such as the number of columns and the data type of each column
-   - Can be used to programmatically determine the structure of a ResultSet and access metadata about the results of a query
-   - Syntax Example :
-   
-         ResultSetMetaData rsmd = rs.getMetaData();
-		   int columnCount = rsmd.getColumnCount();
-		   for (int i = 1; i <= columnCount; i++) {
-    		String columnName = rsmd.getColumnName(i);
-   		int columnType = rsmd.getColumnType(i);
-    		System.out.println(columnName + " " + columnType);
-		}
-
-
-   **3) DatabaseMetaData :** 
-
-   - Provides information about the database, such as the number of tables, the names of the tables, and the data types of columns in the tables
-   - Can be used to programmatically determine the structure of a database and access metadata about the database
-   - Syntax Example :
-   
-            DatabaseMetaData dbmd = conn.getMetaData();
-		   String dbName = dbmd.getDatabaseProductName();
-		   String dbVersion = dbmd.getDatabaseProductVersion();
-		   System.out.println(dbName + " " + dbVersion);
-
-
-# Question no. 7:- Write a program to show how we can delete and updte records in a table.
-
-Answer:- "[DatabaseOperations.java](https://github.com/dhunganaPradeep/Java/blob/main/Assignments/JDBC%20Assignment/DatabaseOperations.java)"
+# Question no.8:- Write a program to do the following:
+- # a. Print the hostname and ip address of ncit’s webpage.
+- # b. Print the name and address of your localhost.
+- # c. Print the loopback address.
+- # d. Given that the ip address is 123.1.100.1, check if it is a loopback address, multicast address, global multicast address.
+- # e. Display name and addresses of all the network interfaces.
