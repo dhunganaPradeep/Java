@@ -29,19 +29,50 @@ Answer:-
 
       * example: HTTPS:80, HTTP:443, FTP:20.
 
-    Types of JDBC Driver : 
+  **Socket :-**
 
-    - JDBC-ODBC Driver (Type 1 Driver)
-    - Native-API Driver (Type 2 Driver )
-    - Network Protocol Driver (Type 3 Driver)
-    - Thin Driver (Type 4 Driver)  
+      * Combination of IP address and Port number is called the the Socket.
 
-    Types of JDBC Driver : 
+    * Socket is the end point for the communication.
 
-    - JDBC-ODBC Driver (Type 1 Driver)
-    - Native-API Driver (Type 2 Driver )
-    - Network Protocol Driver (Type 3 Driver)
-    - Thin Driver (Type 4 Driver)  
+    * Different types of the Socket are:
+
+            a. TCP Socket 
+
+            b. Datagram Socket
+
+            c. Raw Socket Interface
+
+    * It works as an interface between an Application layer and Transport Layer
+
+   **IP Addresses :-** 
+
+      * An IP Addres is an address having information about how to reach a specific host which is a 32-bit unique address number having an address space of 2 ^ 32.
+    
+      * InetAddress is a class that allows us to work with the IP Addresses belongs to java.net package.
+
+      * InetAddress is the base class of both Inet4Address(IPv4) and Inet6Address(IPv6)
+
+      * Some of the methods present in InetAddress class are:- 
+
+            a. public static InetAddress getByName(String host) throws UnknownHostException:-
+
+            It returns the instances of the InetAddress class containing the LocalHost IP and Name
+
+            b. public static InetAddress getByAddress(byte IPAdress[]) throws UnknownHostException:-
+            
+            It returns the instance of the InetAddress class created from the raw IP Address.
+
+            c. public static InetAddress getLocalHost() throws UnknownHostException
+
+            It returns the instances of the InetAddress class containing the localhost name and address
+
+            d. public static InetAddress[] getAllByName(String hostName) throws UnknownHostException
+
+            It returns the array of the instances of the InetAddress class which contains the IP Addresses.
+
+
+    * Example porgram:- eg/InetAddressExam.java
 
    Types of JDBC Driver : 
 
