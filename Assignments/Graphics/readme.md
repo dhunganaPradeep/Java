@@ -5,10 +5,10 @@
 ![CHEESE!](graphics.png)
 
 # Question no.1:- Write a program to draw the following:
-- # a) German Flag
-- # b) Japanese Flag
+- # a) Nepalese Flag
+- # b) German Flag
 - # c) Italian Flag
-- # d) Nepalese Flag
+- # d) Japanese Flag
 
 Answer:-
 
