@@ -133,7 +133,7 @@ Answer:-
 | It provides methods for encoding and decoding URL strings.  |It supports both HTTP and HTTPS protocols. |
 |It is used to open a connection to a resource identified by the URL.  | It can be used to handle redirects and authentication.  |
 | It is part of the java.net package.  | It is part of the java.net package.  |
-| "[URLMethod.java](https://github.com/dhunganaPradeep/Java/blob/main/Assignments/Networking/URLMethod.java)"  |  "[URLConnectionClass.java](https://github.com/dhunganaPradeep/Java/blob/main/Assignments/Networking/URLConnectionClass.java)"  |
+|Example :- "[URLMethod.java](https://github.com/dhunganaPradeep/Java/blob/main/Assignments/Networking/URLMethod.java)"  | Example :-[URLConnectionClass.java](https://github.com/dhunganaPradeep/Java/blob/main/Assignments/Networking/URLConnectionClass.java)"  |
 
 # Question no.4:- Write a menu driven program that allows users to do following :
 - # Display all the records
