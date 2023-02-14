@@ -181,6 +181,30 @@ Answer:-
 
 # Question no. 10:- Write the steps to create the TCP Client and Server.
 
+Answer:-
+
+**Steps to create the TCP Client and Server :**
+
+## TCP Server:
+
+- Create a ServerSocket object by providing a port number to listen to incoming client connections.
+- Call the accept() method on the ServerSocket object to block and wait for a client to connect. This method returns a Socket object.
+- Create an input and output stream for the socket to communicate with the client.
+- Use the input stream to read data sent by the client and use the output stream to send data to the client.
+- Close the socket and release the resources when the communication with the client is complete.
+
+## TCP Client:
+
+- Create a Socket object by providing the IP address and port number of the server to connect to.
+- Create an input and output stream for the socket to communicate with the server.
+- Use the output stream to send data to the server and use the input stream to read data sent by the server.
+- Close the socket and release the resources when the communication with the server is complete.
+
+Example Programs : 
+
+**SERVER:-** "[Server.java](https://github.com/dhunganaPradeep/Java/blob/main/Assignments/Network%20Programming/Server.java)"
+
+**CLIENT:-**"[Client.java](https://github.com/dhunganaPradeep/Java/blob/main/Assignments/Network%20Programming/Client.java)"
 # Question no. 11:- Write a program that takes a string input from the user and sends the string to the server. The server should check whether the string is palindrome or not and return back to the client.
 
 Answer:-
