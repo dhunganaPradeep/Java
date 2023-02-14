@@ -3,7 +3,7 @@ import java.io.FileOutputStream;
 import java.io.IOException;
 import java.net.URL;
 import java.io.InputStream;
-public class URLConnectionExam {
+public class URLConnectionClass {
 
     public static void main(String [] args){
 

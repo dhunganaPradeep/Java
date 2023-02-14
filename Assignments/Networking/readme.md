@@ -83,7 +83,9 @@ Example program:- "[InetDemo.java](https://github.com/dhunganaPradeep/Java/blob/
     
    - It is a package of java.net.
 
-   - A URL is divided into many sections
+   - A URL is divided into many sections : 
+
+      ![CHEESE!](Url.png)
 
 Example program:- "[URLMethod.java](https://github.com/dhunganaPradeep/Java/blob/main/Assignments/Networking/URLMethod.java)"
 
@@ -98,129 +100,40 @@ Example program:- "[URLMethod.java](https://github.com/dhunganaPradeep/Java/blob
                8. Reference/Anchor:- null
                9. Query String:- tab=repositories&type=source
                10. URI:- https://github.com/dhunganaPradeep?tab=repositories&type=source
-    
-**1. JDBC-ODBC Driver ( Type 1 Driver )**
 
-Type 1 JDBC driver, also known as the JDBC-ODBC 		bridge driver, uses an ODBC driver to connect to a database. 	The ODBC driver must be installed on each client machine and 	a Data Source Name (DSN) must be configured to represent the 	target database.
-
-![CHEESE!](type1.jpeg)
-
-   Advantages of Type 1 JDBC driver:
-
-    - It is easy to set up and use.
-    - It allows Java applications to connect to any database that has an ODBC driver.
-
-   Disadvantages of Type 1 JDBC driver:
-
-    - It has poor performance compared to other types of JDBC drivers.
-    - It lacks support for new features and functions of newer databases.
-    - It can have security issues because the ODBC driver is installed on the client machine, which can make it vulnerable to attacks.
-
-**2.Native-API Driver ( Type 2 Driver )**
-
-Type 2 JDBC driver, also known as a Native-API driver, 	uses a database-specific API to connect to a database. Instead of 	using a middleware JDBC-ODBC bridge, it directly calls the 	database API. Each database has its own Native-API driver.
-
-![CHEESE!](type2.jpeg)
-
-   Advantages of Type 2 JDBC driver:
-
-    - It has better performance compared to Type 1 driver (JDBC-ODBC bridge driver) because it doesn't use a middleware JDBC-ODBC bridge.
-    - It can provide access to advanced features and functions of the specific database being used.
-
-   Disadvantages of Type 2 JDBC driver:
-
-    - It is not platform-independent, as it is specific to a particular 	database.
-    - It requires a separate driver for each database, which can make it difficult to switch between databases.
-    - It may have limitations compared to using the database's native API.
-
-**3.Network Protocol Driver ( Type 3 Driver )**
-
-A Type 3 JDBC driver, also known as a network protocol 	driver, is a driver that uses a middleware component, such as a 	Java-based application server, to connect to a database. The 	middleware component acts as a bridge between the Java 	application and the database, and it communicates with the 	database using a database-specific protocol.
-
-![CHEESE!](type3.jpeg)
-
-Advantages of Type 3 JDBC driver:
-
-    - It allows for platform-independence, as Java code can be run on any operating system that has a Java Virtual Machine (JVM) installed.
-    - It provides high performance as it uses a specific protocol for the database, which can be more efficient than using a generic protocol.
-
-   Disadvantages of Type 3 JDBC driver:
-
-    - It can have additional latency due to the middleware component, which can add an extra hop between the Java application and the database.
-    - It can be complex to set up and configure, as it requires a middleware component to be installed and configured.
-    - It may have security issues if the middleware component is not properly configured and secured.
-
-**4.Thin Driver ( Type 4 Driver )**
-
-A Type 4 JDBC driver, also known as the Native-protocol 	pure Java driver, is a pure Java implementation of the database 	protocol. It communicates directly with the database server 	using the database's own network protocol.
-
-![CHEESE!](type4.jpeg)
-
-   Advantages of Type 4 JDBC driver:
-
-    - It has good performance, as it communicates directly with the database server using the database's own network protocol.
-    - It is platform-independent, as it is written entirely in Java.
-    - It supports advanced features and functions of newer databases.
-
-   Disadvantages of Type 4 JDBC driver:
-
-    - It requires a separate driver for each database, which can increase maintenance and support costs.
-    - It may not be compatible with older versions of the database.
-
-
-# Question no.2:- Differentiate between JDBC and ODBC.
+# Question no.2:- Write a program to process URL processing.
 
 Answer:-
 
-   ![CHEESE!](jdbcandodbcdiff.jpg)
+"[URLMethod.java](https://github.com/dhunganaPradeep/Java/blob/main/Assignments/Networking/URLMethod.java)"
+
+     Output :
+               1. Protocol:- https
+               2. Host/Domain:- github.com
+               3. Host Authority:- github.com
+               4. Port:- -1
+               5. Default Port:- 443
+               6. Path:- /dhunganaPradeep
+               7. File:- /dhunganaPradeep?tab=repositories&type=source
+               8. Reference/Anchor:- null
+               9. Query String:- tab=repositories&type=source
+               10. URI:- https://github.com/dhunganaPradeep?tab=repositories&type=source
 
 
-
-# Question no.3:-Explain all the components of JDBC.
+# Question no.3 :- Differentiate between URL and URLConnection class in java.
 
 Answer:-
 
- There are generally four main components of JDBC through which it can interact with a database. They are as mentioned below: 
-
-   **1) JDBC API :** 
-
-   - Provides methods and interfaces for communication with databases.
-   - Consists of two packages: java.sql.* for SE platform and java.sql.* for EE platform
-   - Allows for WORA (write once, run anywhere) capabilities
-   - Provides a standard for connecting a database to a client application
-   - Syntax :
-
-            import java.sql.*;
-		      Connection conn = DriverManager.getConnection("jdbc:<subprotocol>:<subname>","username","password");
-         
-
-   **2) JDBC Driver Manager :** 
-
-   - Loads a specific driver for a given application and database
-   - Used to make database-specific calls to the database to process user requests
-   - Syntax :
-
-            Class.forName("com.mysql.jdbc.Driver");
-
-   **3) JDBC Test Suite :** 
-
-   - Used to test operations (such as insertion, deletion, and updates) performed by JDBC Drivers
-   - Can be used to test the functionality of different drivers and ensure they are working correctly
-   - Syntax:
-
-            Statement stmt = conn.createStatement(); 
-            stmt.executeUpdate("INSERT INTO table_name VALUES(value1,value2,value3)");
-   
-   **4) JDBC-ODBC Bridge Drivers :** 
-
-   - Connects JDBC drivers to the database
-   - Translates JDBC method calls into ODBC function calls
-   - Uses the sun.jdbc.odbc package which includes a native library to access ODBC characteristics
-   - Syntax:
-
-            import sun.jdbc.odbc.*;
-            Driver d = new sun.jdbc.odbc.JdbcOdbcDriver();
-
+ | URL Class  | URLConnection Class |
+| ------------- | ------------- |
+| It represents a Uniform Resource Locator (URL) and provides methods for working with URLs.  | It represents a connection to a URL resource.  |
+| It can be used to create an instance of a URL from a string representation.  | It can be used to establish a connection to a URL and obtain input and/or output streams. |
+| It provides methods for accessing the components of a URL such as protocol, host, path, query, etc.  | It provides methods for setting and getting request properties such as headers, cookies, etc.  |
+| It can be used to compare two URLs for equality.  | It provides methods for getting the response code, content type, and length of the resource.  |
+| It provides methods for encoding and decoding URL strings.  |It supports both HTTP and HTTPS protocols. |
+|It is used to open a connection to a resource identified by the URL.  | It can be used to handle redirects and authentication.  |
+| It is part of the java.net package.  | It is part of the java.net package.  |
+| "[URLMethod.java](https://github.com/dhunganaPradeep/Java/blob/main/Assignments/Networking/URLMethod.java)"  |  "[URLConnectionClass.java](https://github.com/dhunganaPradeep/Java/blob/main/Assignments/Networking/URLConnectionClass.java)"  |
 
 # Question no.4:- Write a menu driven program that allows users to do following :
 - # Display all the records
