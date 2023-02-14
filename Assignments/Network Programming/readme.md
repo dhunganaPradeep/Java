@@ -166,16 +166,17 @@ Answer:- "[Address.java](https://github.com/dhunganaPradeep/Java/blob/main/Assig
 
 Answer:-
 
- | URL Class  | URLConnection Class |
+ | TCP  | UDP |
 | ------------- | ------------- |
-| It represents a Uniform Resource Locator (URL) and provides methods for working with URLs.  | It represents a connection to a URL resource.  |
-| It can be used to create an instance of a URL from a string representation.  | It can be used to establish a connection to a URL and obtain input and/or output streams. |
-| It provides methods for accessing the components of a URL such as protocol, host, path, query, etc.  | It provides methods for setting and getting request properties such as headers, cookies, etc.  |
-| It can be used to compare two URLs for equality.  | It provides methods for getting the response code, content type, and length of the resource.  |
-| It provides methods for encoding and decoding URL strings.  |It supports both HTTP and HTTPS protocols. |
-|It is used to open a connection to a resource identified by the URL.  | It can be used to handle redirects and authentication.  |
-| It is part of the java.net package.  | It is part of the java.net package.  |
-|Example :- "[URLMethod.java](https://github.com/dhunganaPradeep/Java/blob/main/Assignments/Network%20Programming/URLMethod.java)"  | Example :- "[URLConnectionClass.java](https://github.com/dhunganaPradeep/Java/blob/main/Assignments/Network%20Programming/URLConnectionClass.java)"  |
+| Transmission control protocol |User datagram protocol |
+| TCP is a connection-oriented protocol. Connection-orientation means that the communicating devices should establish a connection before transmitting data and should close the connection after transmitting the data. | UDP is the Datagram-oriented protocol. This is because there is no overhead for opening a connection, maintaining a connection, and terminating a connection. UDP is efficient for broadcast and multicast types of network transmission. |
+|TCP is reliable as it guarantees the delivery of data to the destination router.  |The delivery of data to the destination cannot be guaranteed in UDP. |
+|	TCP is comparatively slower than UDP.  |UDP is faster, simpler, and more efficient than TCP.  |
+| TCP is mainly used in data sensitive application.  | UDP is mainly used in time sensitive application. |
+| Header Size is 20-bytes.  | Header size is 8-bytes.  |
+| TCP follows threeway handshake concept  | UDP doesn't wait for the acknowledgement.  |
+| Performs errorchecking by using checksum.  | Doesn't perform errorchecking. |
+|Example :- Web Browsing, email etc.  | Example :- DNS, VOIP, line-data streaming |
 
 
 # Question no. 10:- Write the steps to create the TCP Client and Server.
