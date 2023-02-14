@@ -31,17 +31,17 @@ Answer:-
 
   **Socket :-**
 
-      * Combination of IP address and Port number is called the the Socket.
+    * Combination of IP address and Port number is called the the Socket.
 
     * Socket is the end point for the communication.
 
     * Different types of the Socket are:
 
-            a. TCP Socket 
+    a. TCP Socket 
 
-            b. Datagram Socket
+   b. Datagram Socket
 
-            c. Raw Socket Interface
+   c. Raw Socket Interface
 
     * It works as an interface between an Application layer and Transport Layer
 
