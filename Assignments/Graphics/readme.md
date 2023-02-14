@@ -11,6 +11,7 @@
 - # d) Nepalese Flag
 
 Answer:-
+
 **NEPALESE FLAG:-** "[Nepal.java](https://github.com/dhunganaPradeep/Java/blob/main/Assignments/Graphics/Nepal.java)"
 
 **GERMAN FLAG:-** "[German.java](https://github.com/dhunganaPradeep/Java/blob/main/Assignments/Graphics/German.java)"
@@ -67,10 +68,10 @@ Answer:-
 Answer:- "[CreateImage.java](https://github.com/dhunganaPradeep/Java/blob/main/Assignments/Graphics/CreateImage.java)"
 
 **Output :**
-            ![CHEESE!](mydrawing.png)
-            ![CHEESE!](mydrawing.jpg)
+           **PNG Image** ![CHEESE!](mydrawing.png)
+            **JPG Image**![CHEESE!](mydrawing.jpg)
 
-            
+
 # Question no. 7:- List Various type of Drawing methods.
 
 Answer:-
