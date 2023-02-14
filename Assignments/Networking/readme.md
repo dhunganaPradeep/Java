@@ -1,20 +1,47 @@
-# Java Assignment: Chapter 1 & 2
+# Java Assignment: Network Programming 
 
 # Question
 
-![CHEESE!](JDBC.png)
+![CHEESE!](Network.png)
 
-# Question no.1:- Discuss the features of JavaDefine JDBC drive. Explain its types.
+# Question no.1:- Define Port, Socket, IP Address and URL.
 
 Answer:-
 
-   JDBC (Java Database Connectivity) driver is a software 	component that enables Java applications to interact with a 	database. 
-    • It allows Java code to execute SQL statements and retrieve results from a database.
-    • It serves as a bridge between a Java application and a specific database management system.
-    • JDBC drivers come in different types, such as JDBC-ODBC bridge driver, Native-API driver, Network Protocol driver and Thin driver.
-    • The most commonly used type of JDBC driver is the JDBC-ODBC bridge driver, which allows Java applications to access data stored in databases that have an ODBC driver.
-    • You need to install a JDBC driver for the specific database you want to connect to in order to use JDBC.
-    • With the JDBC driver, Java application can connect to any relational database.
+   **Port :-**
+
+      * Port is a logical construct.
+
+      * Port is a number assigned to a processor running on a server
+
+      * It is a 16-bit number unsigned integer range from (0-65535).
+
+               From (0-1023), known as "system port or widely known port"
+
+               From (1024-49159), known as "Reserved Port"
+
+               Remaining ports(49159-65535), known as the "dynamic port or client port" used by client while connecting to server.
+
+
+      * Only one application can run in a single port in a server.
+
+      * Ports are used in transport layers.
+
+      * example: HTTPS:80, HTTP:443, FTP:20.
+
+    Types of JDBC Driver : 
+
+    - JDBC-ODBC Driver (Type 1 Driver)
+    - Native-API Driver (Type 2 Driver )
+    - Network Protocol Driver (Type 3 Driver)
+    - Thin Driver (Type 4 Driver)  
+
+    Types of JDBC Driver : 
+
+    - JDBC-ODBC Driver (Type 1 Driver)
+    - Native-API Driver (Type 2 Driver )
+    - Network Protocol Driver (Type 3 Driver)
+    - Thin Driver (Type 4 Driver)  
 
    Types of JDBC Driver : 
 
@@ -154,7 +181,7 @@ Answer:-
 - # Ask the user to enter a faculty and print the average marks of the students enrolled in that faculty.
 
 
-Answer:-  "[ConnectDb.java]()"
+Answer:- "[ConnectDb.java]()"
   
 
 # [Assume that the table has following columns: roll, name, faculty, marks]
