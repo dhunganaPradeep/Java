@@ -73,9 +73,9 @@ Answer:-
 
 Example program:- "[InetDemo.java](https://github.com/dhunganaPradeep/Java/blob/main/Assignments/Networking/InetDemo.java)"
 
-   - Output ://
-            Host Name: www.dhunganapradip.com.np
-            IP Address: 172.67.196.125
+      - Output ://
+               Host Name: www.dhunganapradip.com.np
+               IP Address: 172.67.196.125
 
 **URL :-** 
 
@@ -87,17 +87,17 @@ Example program:- "[InetDemo.java](https://github.com/dhunganaPradeep/Java/blob/
 
 Example program:- "[URLMethod.java](https://github.com/dhunganaPradeep/Java/blob/main/Assignments/Networking/URLMethod.java)"
 
-   - Output ://
-            1. Protocol:- https
-            2. Host/Domain:- github.com
-            3. Host Authority:- github.com
-            4. Port:- -1
-            5. Default Port:- 443
-            6. Path:- /dhunganaPradeep
-            7. File:- /dhunganaPradeep?tab=repositories&type=source
-            8. Reference/Anchor:- null
-            9. Query String:- tab=repositories&type=source
-            10. URI:- https://github.com/dhunganaPradeep?tab=repositories&type=source
+      - Output ://
+               1. Protocol:- https
+               2. Host/Domain:- github.com
+               3. Host Authority:- github.com
+               4. Port:- -1
+               5. Default Port:- 443
+               6. Path:- /dhunganaPradeep
+               7. File:- /dhunganaPradeep?tab=repositories&type=source
+               8. Reference/Anchor:- null
+               9. Query String:- tab=repositories&type=source
+               10. URI:- https://github.com/dhunganaPradeep?tab=repositories&type=source
     
 **1. JDBC-ODBC Driver ( Type 1 Driver )**
 
