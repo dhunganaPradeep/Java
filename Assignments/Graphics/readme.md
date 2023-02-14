@@ -67,9 +67,9 @@ Answer:-
 
 Answer:- "[CreateImage.java](https://github.com/dhunganaPradeep/Java/blob/main/Assignments/Graphics/CreateImage.java)"
 
-**Output :**
+## Output :
            **PNG Image** ![CHEESE!](mydrawing.png)
-            **JPG Image**![CHEESE!](mydrawing.jpg)
+            **JPG Image** ![CHEESE!](mydrawing.jpg)
 
 
 # Question no. 7:- List Various type of Drawing methods.
