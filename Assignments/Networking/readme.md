@@ -27,23 +27,23 @@ Answer:-
 
       * Ports are used in transport layers.
 
-      * example: HTTPS:80, HTTP:443, FTP:20.
+      * Example: HTTPS:80, HTTP:443, FTP:20.
 
   **Socket :-**
 
-    * Combination of IP address and Port number is called the the Socket.
+      * Combination of IP address and Port number is called the the Socket.
 
-    * Socket is the end point for the communication.
+      * Socket is the end point for the communication.
 
-    * Different types of the Socket are:
+      * Different types of the Socket are:
 
-    a. TCP Socket 
+                     a. TCP Socket 
 
-    b. Datagram Socket
+                     b. Datagram Socket
 
-    c. Raw Socket Interface
+                     c. Raw Socket Interface
 
-    * It works as an interface between an Application layer and Transport Layer
+      * It works as an interface between an Application layer and Transport Layer
 
    **IP Addresses :-** 
 
@@ -71,8 +71,8 @@ Answer:-
 
             It returns the array of the instances of the InetAddress class which contains the IP Addresses.
 
-
-    * Example porgram:- eg/InetAddressExam.java
+            
+      Example program:- "[InetAddressExam.java]()"
 
    Types of JDBC Driver : 
 
