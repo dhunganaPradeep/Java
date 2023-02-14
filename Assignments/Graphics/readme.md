@@ -27,15 +27,8 @@ Answer:-
 
  | Paint  | Repaint |
 | ------------- | ------------- |
-| Transmission control protocol |User datagram protocol |
-| TCP is a connection-oriented protocol. Connection-orientation means that the communicating devices should establish a connection before transmitting data and should close the connection after transmitting the data. | UDP is the Datagram-oriented protocol. This is because there is no overhead for opening a connection, maintaining a connection, and terminating a connection. UDP is efficient for broadcast and multicast types of network transmission. |
-|TCP is reliable as it guarantees the delivery of data to the destination router.  |The delivery of data to the destination cannot be guaranteed in UDP. |
-|	TCP is comparatively slower than UDP.  |UDP is faster, simpler, and more efficient than TCP.  |
-| TCP is mainly used in data sensitive application.  | UDP is mainly used in time sensitive application. |
-| Header Size is 20-bytes.  | Header size is 8-bytes.  |
-| TCP follows threeway handshake concept  | UDP doesn't wait for the acknowledgement.  |
-| Performs errorchecking by using checksum.  | Doesn't perform errorchecking. |
-|Example :- Web Browsing, email etc.  | Example :- DNS, VOIP, line-data streaming |
+|The paint() method is called when some action is performed on the window. |Whenever a repaint method is called, the update method is also called along with paint() method. |
+|This method supports painting via graphics object. | This method is used to cause paint() to be invoked by the AWT painting thread.|
 
 
 
@@ -78,18 +71,29 @@ Answer:-
 
 **Steps to create the TCP Client and Server :**
 
-## TCP Server:
+- drawString – Drawing (or printing) texts on the graphics screen
+g.drawString("Hello", 10, 10);
 
-- Create a ServerSocket object by providing a port number to listen to incoming client connections.
-- Call the accept() method on the ServerSocket object to block and wait for a client to connect. This method returns a Socket object.
-- Create an input and output stream for the socket to communicate with the client.
-- Use the input stream to read data sent by the client and use the output stream to send data to the client.
-- Close the socket and release the resources when the communication with the client is complete.
+- Drawing lines:
+drawLine(int x1, int y1, int x2, int y2);
+drawPolyline(int[] xPoints, int[] yPoints, int numPoint);
 
-## TCP Client:
+- Drawing primitive shapes:
+drawRect(int xTopLeft, int yTopLeft, int width, int height);
+drawOval(int xTopLeft, int yTopLeft, int width, int height);
+drawArc(int xTopLeft, int yTopLeft, int width, int height, int startAngle, int arcAngle);
+draw3DRect(int xTopLeft, int, yTopLeft, int width, int height, boolean raised);
+drawRoundRect(int xTopLeft, int yTopLeft, int width, int height, int arcWidth, int arcHeight)
+drawPolygon(int[] xPoints, int[] yPoints, int numPoint);
 
-- Create a Socket object by providing the IP address and port number of the server to connect to.
-- Create an input and output stream for the socket to communicate with the server.
-- Use the output stream to send data to the server and use the input stream to read data sent by the server.
-- Close the socket and release the resources when the communication with the server is complete.
-
+- Filling primitive shapes:
+fillRect(int xTopLeft, int yTopLeft, int width, int height);
+fillOval(int xTopLeft, int yTopLeft, int width, int height);
+fillArc(int xTopLeft, int yTopLeft, int width, int height, int startAngle, int arcAngle);
+fill3DRect(int xTopLeft, int, yTopLeft, int width, int height, boolean raised);
+fillRoundRect(int xTopLeft, int yTopLeft, int width, int height, int arcWidth, int arcHeight)
+fillPolygon(int[] xPoints, int[] yPoints, int numPoint);
+ 
+- Drawing (or Displaying) images:
+drawImage(Image img, int xTopLeft, int yTopLeft, ImageObserver obs);  // draw image with its size
+drawImage(Image img, int xTopLeft, int yTopLeft, int width, int height, ImageObserver o);  // resize image on screen
