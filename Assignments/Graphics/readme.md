@@ -72,6 +72,7 @@ Answer:-
 **Steps to create the TCP Client and Server :**
 
 - Drawing (or printing) texts on the graphics screen:
+
             drawString(String str, int xBaselineLeft, int yBaselineLeft);
 - Drawing lines:
 drawLine(int x1, int y1, int x2, int y2);
