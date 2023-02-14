@@ -73,7 +73,7 @@ Answer:-
 
 Example program:- "[InetDemo.java](https://github.com/dhunganaPradeep/Java/blob/main/Assignments/Networking/InetDemo.java)"
 
-   Output :
+      Output :
                Host Name: www.dhunganapradip.com.np
                IP Address: 172.67.196.125
 
@@ -87,7 +87,7 @@ Example program:- "[InetDemo.java](https://github.com/dhunganaPradeep/Java/blob/
 
 Example program:- "[URLMethod.java](https://github.com/dhunganaPradeep/Java/blob/main/Assignments/Networking/URLMethod.java)"
 
-   Output :
+      Output :
                1. Protocol:- https
                2. Host/Domain:- github.com
                3. Host Authority:- github.com
