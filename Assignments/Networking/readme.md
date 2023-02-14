@@ -54,26 +54,26 @@ Answer:-
 
    - Some of the methods present in InetAddress class are:- 
 
-   a. public static InetAddress getByName(String host) throws UnknownHostException:-
+      a. public static InetAddress getByName(String host) throws UnknownHostException:-
 
-               - It returns the instances of the InetAddress class containing the LocalHost IP and Name
+         - It returns the instances of the InetAddress class containing the LocalHost IP and Name
 
-   b. public static InetAddress getByAddress(byte IPAdress[]) throws UnknownHostException:-
+      b. public static InetAddress getByAddress(byte IPAdress[]) throws UnknownHostException:-
             
-               - It returns the instance of the InetAddress class created from the raw IP Address.
+         - It returns the instance of the InetAddress class created from the raw IP Address.
 
-   c. public static InetAddress getLocalHost() throws UnknownHostException
+      c. public static InetAddress getLocalHost() throws UnknownHostException
 
-               - It returns the instances of the InetAddress class containing the localhost name and address
+         - It returns the instances of the InetAddress class containing the localhost name and address
 
-   d. public static InetAddress[] getAllByName(String hostName) throws UnknownHostException
+      d. public static InetAddress[] getAllByName(String hostName) throws UnknownHostException
 
-               - It returns the array of the instances of the InetAddress class which contains the IP Addresses.
+         - It returns the array of the instances of the InetAddress class which contains the IP Addresses.
 
 
 Example program:- "[InetDemo.java](https://github.com/dhunganaPradeep/Java/blob/main/Assignments/Networking/InetDemo.java)"
 
-      - Output ://
+      Output :
                Host Name: www.dhunganapradip.com.np
                IP Address: 172.67.196.125
 
@@ -87,7 +87,7 @@ Example program:- "[InetDemo.java](https://github.com/dhunganaPradeep/Java/blob/
 
 Example program:- "[URLMethod.java](https://github.com/dhunganaPradeep/Java/blob/main/Assignments/Networking/URLMethod.java)"
 
-      - Output ://
+      Output :
                1. Protocol:- https
                2. Host/Domain:- github.com
                3. Host Authority:- github.com
