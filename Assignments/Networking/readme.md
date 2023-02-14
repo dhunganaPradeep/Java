@@ -11,22 +11,21 @@ Answer:-
    **Port :-**
 
       * Port is a logical construct.
-
+      
       * Port is a number assigned to a processor running on a server
-
+      
       * It is a 16-bit number unsigned integer range from (0-65535).
 
-               From (0-1023), known as "system port or widely known port"
+            From (0-1023), known as "system port or widely known port"
 
-               From (1024-49159), known as "Reserved Port"
+            From (1024-49159), known as "Reserved Port"
 
-               Remaining ports(49159-65535), known as the "dynamic port or client port" used by client while connecting to server.
-
+            Remaining ports(49159-65535), known as the "dynamic port or client port" used by client while connecting to server.
 
       * Only one application can run in a single port in a server.
-
+      
       * Ports are used in transport layers.
-
+      
       * Example: HTTPS:80, HTTP:443, FTP:20.
 
   **Socket :-**
