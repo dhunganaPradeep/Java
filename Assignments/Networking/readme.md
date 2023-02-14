@@ -39,9 +39,9 @@ Answer:-
 
     a. TCP Socket 
 
-   b. Datagram Socket
+    b. Datagram Socket
 
-   c. Raw Socket Interface
+    c. Raw Socket Interface
 
     * It works as an interface between an Application layer and Transport Layer
 
