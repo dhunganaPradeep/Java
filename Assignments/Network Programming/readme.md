@@ -154,8 +154,51 @@ Answer:- "[HttpResponses.java](https://github.com/dhunganaPradeep/Java/blob/main
 Answer:- "[IPAddressofGoogle.java](https://github.com/dhunganaPradeep/Java/blob/main/Assignments/Network%20Programming/IPAddressofGoogle.java)"
 
 # Question no.8:- Write a program to do the following:
-- # a. Print the hostname and ip address of ncit’s webpage.
-- # b. Print the name and address of your localhost.
-- # c. Print the loopback address.
-- # d. Given that the ip address is 123.1.100.1, check if it is a loopback address, multicast address, global multicast address.
-- # e. Display name and addresses of all the network interfaces.
+- # a) Print the hostname and ip address of ncit’s webpage.
+- # b) Print the name and address of your localhost.
+- # c) Print the loopback address.
+- # d) Given that the ip address is 123.1.100.1, check if it is a loopback address, multicast address, global multicast address.
+- # e) Display name and addresses of all the network interfaces.
+
+Answer:- "[Address.java](https://github.com/dhunganaPradeep/Java/blob/main/Assignments/Network%20Programming/Address.java)"
+
+# Question no.9 :- Differentiate between TCP and UDP.
+
+Answer:-
+
+ | URL Class  | URLConnection Class |
+| ------------- | ------------- |
+| It represents a Uniform Resource Locator (URL) and provides methods for working with URLs.  | It represents a connection to a URL resource.  |
+| It can be used to create an instance of a URL from a string representation.  | It can be used to establish a connection to a URL and obtain input and/or output streams. |
+| It provides methods for accessing the components of a URL such as protocol, host, path, query, etc.  | It provides methods for setting and getting request properties such as headers, cookies, etc.  |
+| It can be used to compare two URLs for equality.  | It provides methods for getting the response code, content type, and length of the resource.  |
+| It provides methods for encoding and decoding URL strings.  |It supports both HTTP and HTTPS protocols. |
+|It is used to open a connection to a resource identified by the URL.  | It can be used to handle redirects and authentication.  |
+| It is part of the java.net package.  | It is part of the java.net package.  |
+|Example :- "[URLMethod.java](https://github.com/dhunganaPradeep/Java/blob/main/Assignments/Network%20Programming/URLMethod.java)"  | Example :- "[URLConnectionClass.java](https://github.com/dhunganaPradeep/Java/blob/main/Assignments/Network%20Programming/URLConnectionClass.java)"  |
+
+
+# Question no. 10:- Write the steps to create the TCP Client and Server.
+
+# Question no. 11:- Write a program that takes a string input from the user and sends the string to the server. The server should check whether the string is palindrome or not and return back to the client.
+
+Answer:-
+
+**SERVER:-** "[ServerPalindrome.java](https://github.com/dhunganaPradeep/Java/blob/main/Assignments/Network%20Programming/ServerPalindrome.java)"
+
+**CLIENT:-**"[ClientPalindrome.java](https://github.com/dhunganaPradeep/Java/blob/main/Assignments/Network%20Programming/ClientPalindrome.java)"
+# Question no. 12:- Create a multithreaded multiuser TCP client server application.
+
+Answer:-
+
+**SERVER:-** "[MultiThreadingTCPServer.java](https://github.com/dhunganaPradeep/Java/blob/main/Assignments/Network%20Programming/MultiThreadingTCPServer.java)"
+
+**CLIENT:-** "[MultiThreadingTCPClient.java](https://github.com/dhunganaPradeep/Java/blob/main/Assignments/Network%20Programming/MultiThreadingTCPClient.java)"
+
+# Question no. 13:- Create a UDP server and client application.
+
+Answer:-
+
+**SERVER:-** "[UDPServer.java](https://github.com/dhunganaPradeep/Java/blob/main/Assignments/Network%20Programming/UDPServer.java)"
+
+**CLIENT:-** "[UDPClient.java](https://github.com/dhunganaPradeep/Java/blob/main/Assignments/Network%20Programming/UDPClient.java)"
