@@ -47,7 +47,7 @@
 ## 6) [File Handling](https://github.com/dhunganaPradeep/Java/tree/main/File%20Handling)
 **This folder contains the codes related to file handling in Java. It covers the concepts such as reading from and writing to a file, file handling using Scanner and BufferedReader, etc.**
 
-## 7) Graphics
+## 7) [Graphics](https://github.com/dhunganaPradeep/Java/tree/main/Graphics)
 **This folder contains the codes related to creating graphics in Java using the Graphics class and the Graphics2D class.**
 
 ## 8) [GUI](https://github.com/dhunganaPradeep/Java/tree/main/GUI)
