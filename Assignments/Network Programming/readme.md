@@ -71,7 +71,7 @@ Answer:-
          - It returns the array of the instances of the InetAddress class which contains the IP Addresses.
 
 
-Example program:- "[InetDemo.java](https://github.com/dhunganaPradeep/Java/blob/main/Assignments/Networking/InetDemo.java)"
+Example program:- "[InetDemo.java](https://github.com/dhunganaPradeep/Java/blob/main/Assignments/Network%20Programming/InetDemo.java)"
 
       Output :
                Host Name: www.dhunganapradip.com.np
@@ -87,7 +87,7 @@ Example program:- "[InetDemo.java](https://github.com/dhunganaPradeep/Java/blob/
 
       ![CHEESE!](Url.png)
 
-Example program:- "[URLMethod.java](https://github.com/dhunganaPradeep/Java/blob/main/Assignments/Networking/URLMethod.java)"
+Example program:- "[URLMethod.java](https://github.com/dhunganaPradeep/Java/blob/main/Assignments/Network%20Programming/URLMethod.java)"
 
       Output :
                1. Protocol:- https
@@ -105,7 +105,7 @@ Example program:- "[URLMethod.java](https://github.com/dhunganaPradeep/Java/blob
 
 Answer:-
 
-"[URLMethod.java](https://github.com/dhunganaPradeep/Java/blob/main/Assignments/Networking/URLMethod.java)"
+"[URLMethod.java](https://github.com/dhunganaPradeep/Java/blob/main/Assignments/Network%20Programming/URLMethod.java)"
 
      Output :
                1. Protocol:- https
@@ -133,24 +133,25 @@ Answer:-
 | It provides methods for encoding and decoding URL strings.  |It supports both HTTP and HTTPS protocols. |
 |It is used to open a connection to a resource identified by the URL.  | It can be used to handle redirects and authentication.  |
 | It is part of the java.net package.  | It is part of the java.net package.  |
-|Example :- "[URLMethod.java](https://github.com/dhunganaPradeep/Java/blob/main/Assignments/Networking/URLMethod.java)"  | Example :- "[URLConnectionClass.java](https://github.com/dhunganaPradeep/Java/blob/main/Assignments/Networking/URLConnectionClass.java)"  |
+|Example :- "[URLMethod.java](https://github.com/dhunganaPradeep/Java/blob/main/Assignments/Network%20Programming/URLMethod.java)"  | Example :- "[URLConnectionClass.java](https://github.com/dhunganaPradeep/Java/blob/main/Assignments/Network%20Programming/URLConnectionClass.java)"  |
 
 
 # Question no.4:-  Write a program to print the content of any given URL. Also save the content in an index.html file.
 
-Answer:- "[URLConnectionClass.java](https://github.com/dhunganaPradeep/Java/blob/main/Assignments/Networking/URLConnectionClass.java)"
+Answer:- "[URLConnectionClass.java](https://github.com/dhunganaPradeep/Java/blob/main/Assignments/Network%20Programming/URLConnectionClass.java)"
   
 # Question no.5:-  Write a program to display the HttpRequest Headers.
 
-Answer:- "[HttpRequestHeaders.java](https://github.com/dhunganaPradeep/Java/blob/main/Assignments/Networking/HttpRequestHeaders.java)"
+Answer:- "[HttpRequestHeaders.java](https://github.com/dhunganaPradeep/Java/blob/main/Assignments/Network%20Programming/HttpRequestHeaders.java)"
 
 # Question no.6:- Write a program to print all the Http Responses.
 
 
-Answer:- "[HttpResponses.java](https://github.com/dhunganaPradeep/Java/blob/main/Assignments/Networking/HttpResponses.java)"
+Answer:- "[HttpResponses.java](https://github.com/dhunganaPradeep/Java/blob/main/Assignments/Network%20Programming/HttpResponses.java)"
+
 # Question no. 7:- Write a program that prints all the ip addresses associated with 'google.com'.
 
-Answer:- "[IPAddressofGoogle.java](https://github.com/dhunganaPradeep/Java/blob/main/Assignments/JDBC%20Assignment/IPAddressofGoogle.java)"
+Answer:- "[IPAddressofGoogle.java](https://github.com/dhunganaPradeep/Java/blob/main/Assignments/Network%20Programming/IPAddressofGoogle.java)"
 
 # Question no.8:- Write a program to do the following:
 - # a. Print the hostname and ip address of ncit’s webpage.
