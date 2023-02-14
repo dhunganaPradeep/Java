@@ -37,17 +37,17 @@ Answer:-
 
       * Different types of the Socket are:
 
-                     a. TCP Socket 
+                  a. TCP Socket 
 
-                     b. Datagram Socket
+                  b. Datagram Socket
 
-                     c. Raw Socket Interface
+                  c. Raw Socket Interface
 
       * It works as an interface between an Application layer and Transport Layer
 
    **IP Addresses :-** 
 
-      * An IP Addres is an address having information about how to reach a specific host which is a 32-bit unique address number having an address space of 2 ^ 32.
+      * An IP Address is an address having information about how to reach a specific host which is a 32-bit unique address number having an address space of 2 ^ 32.
     
       * InetAddress is a class that allows us to work with the IP Addresses belongs to java.net package.
 
